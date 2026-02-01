@@ -5,8 +5,10 @@ import CounterWithLimits from "./tasks/CounterWithLimits";
 import CustomHook1 from "./tasks/CustomHook1";
 import CustomHook2 from "./tasks/CustomHook2";
 import DocumentTitleCounter from "./tasks/DocumentTitleCounter";
+import FocusInput from "./tasks/FocusInput";
 import LoginForm from "./tasks/LoginForm";
 import Memoization from "./tasks/Memoization";
+import PreviousValueTracker from "./tasks/PreviousValueTracker";
 import SearchAndFilter from "./tasks/SearchAndFilter";
 import SharedCounter from "./tasks/SharedCounter";
 import StatusBadge from "./tasks/StatusBadge";
@@ -28,7 +30,9 @@ function App() {
     // <CustomHook1 />
     // <CustomHook2 />
     // <Memoization />
-    <LoginForm />
+    // <LoginForm />
+    // <FocusInput />
+    <PreviousValueTracker />
   );
 }
 
